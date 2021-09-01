@@ -1,10 +1,20 @@
-.App {
-  min-height: 100vh;
+body, html{
+  margin: 0;
+  padding: 0;
+}
+.recipes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.recipe-card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 50px;
 }
 
-.search-form{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  min-height: 10vh;
+.recipe-card > img{
+  max-width: 50%;
+  height: auto;
 }
